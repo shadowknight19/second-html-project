@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mon premier Formulaire</title>
+  </head>
+  <body>
+
+    <h1>Votre Avis Nous Int&egrave;resse</h1>
+
+    <form class="" action="index.html" method="post">
+
+<table style="width:100%">
+<tr>
+  <td>
+
+
+
+
+
+
+      <fieldset>
+        <legend>Informations Personnelles</legend>
+
+
+
+
+
+<ol>
+  <li> <label  for="Nom" >Nom</label> <input type="text"  value="" id="Nom"/> </li>
+
+  <li><label for="date" >Date de Naissance <input type="date" id="date" value=""/></label></li>
+
+  <li><label for="Url">Site <input type="url" id="Url" placeholder="http://monsite.com"></label></li>
+
+  <li><label for="Emploi">Emploi</label>
+    <select id="Emploi">
+      <option value=""></option>
+      <option value="">Etudiant</option>
+      <option value="">Administrateur R&egrave;seau</option>
+      <option value="">d&egrave;vlopeur web</option>
+      <option value="">Web Designer</option>
+      <option value="">DevOps</option>
+    </select>
+  </li>
+
+  <li><label for="Salaire">Approx. Salaire Annuel   <input required type="number" id="Salaire" min="0" max="10000" step="1000" placeholder="$"/></label></li>
+
+
+</ol>
+</td>
+
+
+<td>
+
+<fieldset>
+  <legend> Information de Contact</legend>
+  <ol>
+  <li><label for="adresse">Adresse ligne 1  <input type="text" /></label></li>
+
+
+   <li><label for="adresse2">Adresse ligne 2 <input type="text" name="" value=""/></label></li>
+
+
+   <li><label for="pays">pays</lebel>
+     <select id="pays">
+       <option value=""></option>
+       <option value="">Alg&egrave;rie</option>
+       <option value="">Tunisie</option>
+       <option value="">Maroc</option>
+     </select>
+
+
+   </li>
+
+
+
+
+
+   <li><label for="Tel">T&egrave;l <input type="tel" name="" value="" placeholder="eg:+213 67..."></lebel></li>
+
+
+   <li><label for="Courriel">Courriel <input type="email" name="" value=""></lebel></li>
+
+
+</ol>
+</fieldset>
+
+</td>
+</tr>
+</table>
+
+      </fieldset>
+    </form>
+
+
+<div >
+
+  <h1>Pr&egrave;f&egrave;rence</h1>
+
+  <div >
+    <p>Choisir une couleur      <input type="color" name="" value="black"/></p>
+  </div>
+
+
+<div >
+  <p>Sur un &egrave;chelle de 1 a 10, quel est votre degr&egrave; d'enthourisasme pour HTML5   <input required type="range" min="0" max="10" step="1"/></p>
+</div>
+
+<div>
+  <input type="submit"  value="Envoyer">
+</div>
+
+
+
+</div>
+  </body>
+</html>
